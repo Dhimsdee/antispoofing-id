@@ -5,7 +5,9 @@ Antispoofing-id is a real-time Liveness Detection Streamlit app consisting of th
 # Initialization
 If you want to clone this repository, I highly recommend you to install all the packages on the virtual environment. In this case, I use conda environment. Here is the steps you must follow:
 <pre><code>conda create -n [env-name] python=3.8 
-conda activate ENVNAME </code></pre>
+conda activate [env-name] </code></pre>
+
+Change [env-name] with your desired name
 
 # How to install the packages:
 <pre><code>pip install -r requirements.txt </code></pre>

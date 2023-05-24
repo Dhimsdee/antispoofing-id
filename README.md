@@ -11,7 +11,6 @@ conda activate ENVNAME </code></pre>
 <pre><code>pip install -r requirements.txt </code></pre>
 
 # How to run:
-
 <pre><code>streamlit run app.py </code></pre>
 
 

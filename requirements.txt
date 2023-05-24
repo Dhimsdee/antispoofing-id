@@ -1,4 +1,4 @@
-dlib
+dlib-bin
 cmake
 Flask==2.2.2
 Flask_Cors==3.0.10

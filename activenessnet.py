@@ -33,7 +33,7 @@ def activenessnet():
 
     stframe = st.empty()
 
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
 
     stframe.empty()
     cam = cv2.VideoCapture(0)
@@ -79,7 +79,7 @@ def activenessnet():
             im = show_image(cam,"Real",color = (0,255,0))
             stframe.image(im)
             time.sleep(2)
-            cv2.destroyAllWindows()
+            # cv2.destroyAllWindows()
 
             result_placeholder.success("Anda dinyatakan real")
             liveness['label'] = "Real"
@@ -89,7 +89,7 @@ def activenessnet():
             im = show_image(cam,"Fake", color = (255,0,0))
             stframe.image(im)
             time.sleep(2)
-            cv2.destroyAllWindows()
+            # cv2.destroyAllWindows()
 
             result_placeholder.error("Anda tidak mengikuti semua perintah dengan benar. Silakan coba lagi")
             liveness['label'] = "Fake"

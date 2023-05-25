@@ -14,3 +14,6 @@ seaborn==0.12.2
 streamlit==1.22.0
 tensorflow
 tensorflowjs==4.6.0
+streamlit-webrtc==0.45.0
+pyobjc-core
+pyobjc-framework-Cocoa

@@ -99,5 +99,5 @@ def activenessnet():
             continue
 
     cam.release()
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
     stframe.empty()

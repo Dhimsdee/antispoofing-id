@@ -15,5 +15,3 @@ streamlit==1.22.0
 tensorflow
 tensorflowjs==4.6.0
 streamlit-webrtc==0.45.0
-pyobjc-core==7.3
-pyobjc-framework-Cocoa==7.3

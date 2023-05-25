@@ -39,10 +39,3 @@ elif liveness_type == "Serial":
 
         stframe.empty()
 
-# Hide the Streamlit menu
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
